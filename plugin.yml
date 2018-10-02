@@ -1,9 +1,9 @@
-name: Fly
+name: BuyFly
 main: Fly\Main
-author: iiInfinityHD
+author: Kkora
 description: "Turn on or off flight in survival mode"
 version: 1.0.0
-api: 2.0.0
+api: 2.0.0, 3.0.0, 4.0.0
 
 commands:
  fly:
