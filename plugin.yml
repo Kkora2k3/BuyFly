@@ -1,0 +1,18 @@
+name: Fly
+main: Fly\Main
+author: iiInfinityHD
+description: "Turn on or off flight in survival mode"
+version: 1.0.0
+api: 2.0.0
+
+commands:
+ fly:
+  usage: "/fly [player]"
+  description: "Turn on or off flight in survival mode"
+permissions:
+  fly.me:
+    default: op
+    description: "Turn on or off flight in survival mode for yourself"
+  fly.others:
+    default: op
+    description: "Turn on or off flight in survival mode for another player"
